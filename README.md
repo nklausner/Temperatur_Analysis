@@ -18,8 +18,8 @@ Cleaning data and adding four lag columns to predict a day's temperatur by the v
 
 After evaluating different combination of parameters i settled for:
 - ARIMA (4,0,0)
-- 1.631 °C mean absulte error
+- 1.631 °C mean absolute error
 
-(Test and train data making no difference here. For every data point the value of the day itself functions as test data and the value of the four days before as the training data. An exception being trend and seasonality which was calculated from the full data.)
+(Test and train data making no difference here. For every data point the value of the day itself functions as the test data and the value of the four days before as the training data. An exception being trend and seasonality which was calculated from the full data.)
 
 ![temparture forecast for training data](temp_forecast.png)
